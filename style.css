@@ -25,10 +25,13 @@
 #cactus {
     width: 20px;
     height: 20px;
-    background-color: rgb(58, 58, 58);
+    /* background-color: rgb(58, 58, 58); */
     position: relative;
     top: 130px;
     left: 480px;
+    background-image: url('img/cactus.png');
+    background-size: cover;
+    background-position-x: center;
     animation: cactus 1s infinite linear;
 }
 
